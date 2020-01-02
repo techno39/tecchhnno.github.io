@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="TECHNO.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid grey;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 2s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+</style>
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 9px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 10px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 100px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h3><a href="#default" class="logo">TECHNO</a></h3>
+  <div class="header-right">
+    <a class="active" href="ass.html">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="about.html">About</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="techno.css">
+
+<body>
+<div id="slider">
+<figure>
+
+<img src="11.jpg" alt>
+<img src="1.jpg" alt>
+<img src="18.jpg" alt>
+<img src="17.png" alt>
+</figure>
+</div>
+<font></font><h1>TECHNO</h1>
+<h2><span class="text-shadow underline"> About This Webpage</span> </h2>
+<p>this is the website is develop for the solution of a your pc problem in your pc and the we provide the best solution for your pc problem </p>
+<br>
+<p>this is our first webpage means (home page) </p><br>
+	<font color="red "><p>this is the website for all the person who are facing a problem in his pc</p>
+
+</p></font>
+<br>
+<p>we are uploading a first blog on pc error </p><br>
+<p>as soon as possible</p><br>
+<p>this is my first website and  this is only as the home page of techno</p>
+<br>
+<p>thanks for visiting</p>
+
+
+
+</p>
+
+</body>
+</html>
+
+
+
+<!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-1 col-md-1">
+            <h6>About</h6>
+            <h5 class="text-justify">techno.com <i><b> Problem Made To Be Simple <b></i></h5> 
+          </div>
+
+      
+
+          
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1 col-sm-1col-xs-2">
+            <h5 align="center" class="copyright-text">thanks for visiting</h5> 
+         <a href="ass.html">TECHNO</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+            				<h5>identity by the color</h5>
+			<h5>follow us on</h5>
+
+             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+			  <li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+             
+              
+                
+            </ul>
+          </div>
+        </div> 
+      </div>
+</footer>
+
+
+</div>
+
+
+<script>
+
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+
+}
+</script>
+
+
+</body>
+</html>
+
